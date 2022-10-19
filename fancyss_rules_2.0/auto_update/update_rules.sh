@@ -156,9 +156,8 @@ else
 fi
 echo =================
 # ======================================
-cd fancyss_rules_2.0
 rm google.china.conf
 rm apple.china.conf
 rm gfwlist1.conf gfwlist_download.conf gfwlist_download_tmp.conf chnroute1.txt
 rm cdn1.txt accelerated-domains.china.conf cdn_download.txt apple_download.txt google_download.txt
-rm WhiteList.txt WhiteList_tmp.txt WhiteList_new.txt
+rm ../WhiteList.txt ../WhiteList_new.txt
