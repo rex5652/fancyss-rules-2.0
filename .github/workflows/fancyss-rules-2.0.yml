@@ -1,17 +1,17 @@
-name: Update Fancyss Rules
+name: Update Fancyss Rules 2.0
 
 on:
   push:
-    branches: [master]
+    branches: [main]
     paths:
-      - '.github/workflows/fancyss-rules.yml'
-      - 'fancyss_rules/auto_update/*'
+      - '.github/workflows/fancyss-rules-2.0.yml'
+      - 'fancyss_rules_2.0/auto_update/*'
   workflow_dispatch:
     inputs:
       FORCE_PUSH:
         description: 'Force to push'
         required: true
-        default: 'false'
+        default: 'true'
   schedule:
     - cron: '45 19 * * *'
 
