@@ -156,6 +156,7 @@ else
 fi
 echo =================
 # ======================================
+cd fancyss_rules_2.0
 rm google.china.conf
 rm apple.china.conf
 rm gfwlist1.conf gfwlist_download.conf gfwlist_download_tmp.conf chnroute1.txt
